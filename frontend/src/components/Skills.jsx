@@ -10,15 +10,17 @@ const Skills = () => {
       <Title title="Skills" />
       <div className="mt-16">
         <div className="flex flex-wrap justify-center gap-8">
-          {skills.map((skill,index) => (
-            <div key={index} className="bg-white shadow-md rounded-xl p-6 flex flex-col items-center border border-gray-200 w-40 hover:shadow-lg transition-shadow">
-              <div className="mb-4 w-20 h-20">
-                <img
-                  src={skill.image}
-                  alt=""
-                />
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="bg-white shadow-md rounded-xl p-6 flex flex-col items-center border border-gray-200 w-35 sm:w-40 hover:shadow-lg transition-shadow"
+            >
+              <div className="mb-2 sm:mb-4 w-20 h-20">
+                <img src={skill.image} alt={skill.name} />
               </div>
-              <p className="text-lg font-semibold text-gray-700">{skill.name}</p>
+              <p className="text-lg font-semibold text-gray-700">
+                {skill.name}
+              </p>
             </div>
           ))}
         </div>
