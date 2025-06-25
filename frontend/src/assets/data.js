@@ -7,12 +7,12 @@ export const bio = {
     "I am a motivated FullStack Web Developer, always eager to take on new challenges with a passion for learning.",
   github: "https://github.com/krishna-bata",
   resume:
-    "https://drive.google.com/file/d/1AmFLeZpGgPtcZR34naiVu-0F8WmTm40a/view?usp=drive_link",
+    "https://drive.google.com/file/d/12fNLBRiz4jhC6cuTgdDCpUz9cNQsORy7/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/krishna-bata/",
   insta:
     "https://www.instagram.com/k_r_i_s_h_n_a_b_a_t_a_07?igsh=MXA0MHlrbmRkbzQ0eg==",
-  email:"tusharbata@gmail.com",
-  phone:"+91 987654321"
+  email: "tusharbata@gmail.com",
+  phone: "+91 987654321",
 };
 
 export const projects = [
