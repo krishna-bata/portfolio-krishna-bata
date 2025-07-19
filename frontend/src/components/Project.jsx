@@ -1,10 +1,6 @@
-import React from "react";
 import Title from "./Title";
-import { useSelector } from "react-redux";
-import { selectProjects } from "../redux/userSlice.js";
 
-const Project = () => {
-  const projects = useSelector(selectProjects) 
+const Project = ({ projects }) => {
   return (
     <div className="my-16 px-8 lg:px-0">
       <Title title="Projects" />
