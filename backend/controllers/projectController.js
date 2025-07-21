@@ -29,7 +29,7 @@ const addProject = async (req, res) => {
 
 const getAllProjects = async (req, res) => {
   try {
-    const projects = await projectModel.find();
+    const projects = await projectModel.find().sort({ createdAt: 1 });
     res.json({ success: true, projects });
   } catch (error) {
     console.log(error);
@@ -47,7 +47,6 @@ const getProjectById = async (req, res) => {
     res.json({ success: false, message: error.message });
   }
 };
-
 
 const updateProjectById = async (req, res) => {
   try {
