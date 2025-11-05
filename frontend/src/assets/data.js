@@ -7,7 +7,7 @@ export const bio = {
     "I am a motivated FullStack Web Developer, always eager to take on new challenges with a passion for learning.",
   github: "https://github.com/krishna-bata",
   resume:
-    "https://drive.google.com/file/d/14UPTsQ5bfq4sNBLV5SQwb2Y-ruqgTKYD/view?usp=drive_link",
+    "https://drive.google.com/file/d/14MbfssjjaXjH9MDN2tSPuCO4h5ii1Iy5/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/krishna-bata/",
   insta:
     "https://www.instagram.com/k_r_i_s_h_n_a_b_a_t_a_07?igsh=MXA0MHlrbmRkbzQ0eg==",
